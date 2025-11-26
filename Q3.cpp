@@ -152,8 +152,8 @@ void Flight::display() const{
     cout << "Fare     Points     Name" << endl;
     cout << "------------------------" << endl;
     for (int i = 0; i < size; i++) {
-//        cout << passengers[i].getFare() << "     " << passengers[i].getPoints() << "     " << passengers[i].getName() << endl;
-        cout << passengers[i].getFare() << "     " << passengers[i].getPoints() << "     " << passengers[i].getName() << "     " << (passengers[i].getFare() * 0.5 + passengers[i].getPoints() * 0.5) << endl;
+        cout << passengers[i].getFare() << "     " << passengers[i].getPoints() << "     " << passengers[i].getName() << endl;
+//        cout << passengers[i].getFare() << "     " << passengers[i].getPoints() << "     " << passengers[i].getName() << "     " << (passengers[i].getFare() * 0.5 + passengers[i].getPoints() * 0.5) << endl;
     }
 };
 
